@@ -34,6 +34,15 @@ Product.init(
       defaultValue: 10,
       validate: {
         isNumeric: true
+      }      
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
+      onDelete: 'SET NULL',
+      //References the Category model's id
+      references: {
+        model: 'category',
+        key: 'id'
       }
     }
   },
