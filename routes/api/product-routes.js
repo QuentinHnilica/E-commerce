@@ -100,8 +100,8 @@ router.put('/:id', async (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
-      res.status(400).json(err);
+      console.log(err);
+      res.status(500).json(err);
     });
 });
 
