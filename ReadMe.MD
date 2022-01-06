@@ -12,7 +12,7 @@
  [](#license)
  [Contributions](#contributions)
  [Contact](#contact)
-
+  ![image](E-commerce.png)
   ## Installation
   npm i
   
@@ -26,7 +26,8 @@
 
   ## Tech
   - JavaScript
-- NodeJS
+  - NodeJS
+  - mySql
 
   ## Deployment
   https://watch.screencastify.com/v/r1082fWQCwV0FxN4nA3u
